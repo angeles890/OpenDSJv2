@@ -34,6 +34,60 @@ $(document).ready(function () {
         $( "h5" ).html(percent);
 
     });
+    //Andrew new stuff start here
+
+
+$(".Newbox1-btn").click(function () {
+$("#tabs li").removeClass("active");
+$(".Newbox1-btn").addClass("active");
+$(".candidate-gp").css("display", "none");
+$("#Newbox1").css("display", "block");
+var name = 'Andrew TEV1';
+var total = '1.13m';
+var contrib = '4.0k';
+var percent = '48.8%';
+$( "h2" ).html(name);
+$( "h3" ).html(total);
+$( "h4" ).html(contrib);
+$( "h5" ).html(percent);
+});
+
+$(".Newbox2-btn").click(function () {
+$("#tabs li").removeClass("active");
+$(".Newbox2-btn").addClass("active");
+$(".candidate-gp").css("display", "none");
+$("#Newbox2").css("display", "block");
+var name = 'Andrew TEV2';
+var total = '1.13m';
+var contrib = '4.0k';
+var percent = '48.8%';
+$( "h2" ).html(name);
+$( "h3" ).html(total);
+$( "h4" ).html(contrib);
+$( "h5" ).html(percent);
+});
+
+$(".Newbox3-btn").click(function () {
+$("#tabs li").removeClass("active");
+$(".Newbox3-btn").addClass("active");
+$(".candidate-gp").css("display", "none");
+$("#Newbox3").css("display", "block");
+var name = 'Andrew TEV3';
+var total = '1.13m';
+var contrib = '4.0k';
+var percent = '48.8%';
+$( "h2" ).html(name);
+$( "h3" ).html(total);
+$( "h4" ).html(contrib);
+$( "h5" ).html(percent);
+});
+
+//Andrew new stuff end here
+    
+    
+    
+    
+    
     /*$("#importance").click(function () {
         $('#importancediv').css('display', 'block');
         //$(this).next('#importancediv').stop().show('slide', {direction: 'down'}, 1400);
