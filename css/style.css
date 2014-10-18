@@ -36,7 +36,7 @@ h3, h4, h5 {font-size:2em;color:red;font-weight:200}
 .nguyen-pri-btn{background-image: url(../img/nguyen.jpg)}
 .cortese-pri-btn, .cortese-run-btn, .cortese-pac-btn{background-image: url(../img/cortese.jpg)}
 
-#pac .candidate, #runoff .candidate{ 
+#pac .candidate, #runoff .candidate,#Newbox1.candidate, #Newbox2.candidate, #Newbox3.candidate{ 
 width:100px;
 height:100px;
 border-radius: 50px;
@@ -99,7 +99,7 @@ padding: 0;
 min-height: 50px;
 }
 
-#pac.candidate-gp ul, #runoff.candidate-gp ul {
+#pac.candidate-gp ul, #runoff.candidate-gp ul , #Newbox1.candidate-gp ul, #Newbox2.candidate-gp ul, #Newbox3.candidate-gp ul {
 min-height: 105px;
 }
 
@@ -108,7 +108,7 @@ margin-right: 2%;
 float: left;
 }
 
-#pac.candidate-gp li, #runoff.candidate-gp li{
+#pac.candidate-gp li, #runoff.candidate-gp li, #Newbox1.candidate-gp li, #Newbox2.candidate-gp li, #Newbox3.candidate-gp li{
 margin:0 3%;
 }
 .candidate-gp img {
